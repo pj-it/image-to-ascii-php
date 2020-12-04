@@ -1,0 +1,63 @@
+* { 
+    box-sizing: content-box;
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    font-family: monospace;
+    font-size: 10px;
+    text-align: center;
+}
+
+body.white {
+    background-color: white;
+    color: black;
+}
+
+body.black {
+    background-color: black;
+    color: white;            
+}
+
+a, a:link, a:visited, a:focus {
+    color: inherit;
+    font-weight: bold;
+    outline: none; 
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 2; 
+    margin: 10px 0;
+}
+
+p.error { 
+    color: red; 
+}
+
+h1 {
+    font-size: 2em;
+    margin: 50px 0;
+}
+
+div {
+    position: relative;
+}
+
+.output {
+    overflow-x: auto;
+}
+
+.ascii {
+    font-size: 1em;
+    letter-spacing: 0.55em;
+    line-height: 1.1;
+    padding: 10px 0;
+    user-select: none;
+}
+
+.footer {
+    margin: 50px 0;
+}
